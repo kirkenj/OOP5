@@ -8,6 +8,7 @@ namespace Lab5
         {
             OutInConsole.Print(UserInput.GetInt());
             /*костя мяу*/
+            //gaw
         }
     }
 }
