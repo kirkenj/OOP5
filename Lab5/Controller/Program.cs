@@ -7,7 +7,7 @@ namespace Lab5
     {
         public static void Main(string[] args)
         {
-            OutInConsole.Print(CLogic.ReverseNumber(UserInput.GetInt()));
+            OutInConsole.Print(ELogic.DegreeOfThree(UserInput.GetInt()));
         }
     }
 }
