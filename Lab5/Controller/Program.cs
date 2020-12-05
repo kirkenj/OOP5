@@ -7,6 +7,7 @@ namespace Lab5
         public static void Main(string[] args)
         {
             OutInConsole.Print(UserInput.GetInt());
+            /*костя мяу*/
         }
     }
 }
