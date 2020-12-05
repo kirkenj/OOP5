@@ -7,7 +7,8 @@ namespace Lab5
     {
         public static void Main(string[] args)
         {
-            OutInConsole.Print(ELogic.DegreeOfThree(UserInput.GetInt()));
+            OutInConsole.Print(B5Logic.IsMoreEvenInNum(56));
+            OutInConsole.Print(CLogic.ReverseNumber(UserInput.GetInt()));
         }
     }
 }
