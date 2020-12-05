@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\ti33\\OOP5\\Lab5\\Lab5.csproj": {}
+    "C:\\Users\\Костя\\Desktop\\OOP5\\Lab5\\Lab5.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\ti33\\OOP5\\Lab5\\Lab5.csproj": {
+    "C:\\Users\\Костя\\Desktop\\OOP5\\Lab5\\Lab5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\ti33\\OOP5\\Lab5\\Lab5.csproj",
+        "projectUniqueName": "C:\\Users\\Костя\\Desktop\\OOP5\\Lab5\\Lab5.csproj",
         "projectName": "Lab5",
-        "projectPath": "D:\\Visual Studio\\ti33\\OOP5\\Lab5\\Lab5.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\ti33\\OOP5\\Lab5\\obj\\",
+        "projectPath": "C:\\Users\\Костя\\Desktop\\OOP5\\Lab5\\Lab5.csproj",
+        "packagesPath": "C:\\Users\\Костя\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Костя\\Desktop\\OOP5\\Lab5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Костя\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
