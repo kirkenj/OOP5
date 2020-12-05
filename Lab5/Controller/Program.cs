@@ -8,6 +8,7 @@ namespace Lab5
         public static void Main(string[] args)
         {
             OutInConsole.Print(CLogic.ReverseNumber(UserInput.GetInt()));
+            Meow.meow();
         }
     }
 }
