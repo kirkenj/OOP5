@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab5.Models
 {
-    class B5Logic
+    static class B5Logic
     {
         static int DECIMAL_NOTATION_BASE = 10;
         public static bool IsMoreEvenInNum(int num)

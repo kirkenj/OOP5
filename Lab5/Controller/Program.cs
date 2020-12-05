@@ -7,7 +7,8 @@ namespace Lab5
     {
         public static void Main(string[] args)
         {
-            OutInConsole.Print(B5Logic.IsMoreEvenInNum(56));
+            
+            OutInConsole.Print(C1Logic.IsDecreasingSequence(312));
             OutInConsole.Print(CLogic.ReverseNumber(UserInput.GetInt()));
         }
     }

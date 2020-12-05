@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab5.Models
 {
-    public static class A1Logic
+    static class A1Logic
     {
 
         static int DECIMAL_NOTATION_BASE = 10;
