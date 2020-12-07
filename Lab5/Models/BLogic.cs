@@ -26,17 +26,17 @@ namespace Lab5.Models
         }
 
 
-        public static string OneEven(int number)//returns true is one even number is found into passed variable
+        public static bool HasOneEven(int number)//returns true is one even number is found into passed variable
         {
             while (number != 0)
             {
                 if ((number % 10) % 2 == 0)
                 {
-                    return "Number have even digit";
+                    return true;
                 }
                 number /= 10;
             }
-            return "No even digits on this number";
+            return false;
         }
     }
 }
