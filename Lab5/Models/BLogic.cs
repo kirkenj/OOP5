@@ -7,7 +7,7 @@ namespace Lab5.Models
 {
     static class BLogic
     {
-        public static bool IsMoreEvenInNum(int num)//returns true if there're more even then odd numbers in passed variable
+        public static bool HasMoreEven(int num)//returns true if there're more even then odd numbers in passed variable
         {
             int digitCounter = 0;
             int evenCounter = 0;

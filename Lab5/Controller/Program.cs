@@ -7,9 +7,9 @@ namespace Lab5
         public static void Main(string[] args)
         {
             int number = 3258;
-            OutInConsole.Print(ALogic.GetSymOfDigits(number));
+            OutInConsole.Print(ALogic.GetSumOfDigits(number));
             OutInConsole.Print(ALogic.GetLength(number));
-            OutInConsole.Print(BLogic.IsMoreEvenInNum(number));
+            OutInConsole.Print(BLogic.HasMoreEven(number));
             OutInConsole.Print(BLogic.HasOneEven(number));
             OutInConsole.Print(CLogic.IsDecreasingSequence(number));
             OutInConsole.Print(CLogic.IsDecreasingSequence(951));

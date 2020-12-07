@@ -16,7 +16,7 @@ namespace Lab5.Models
             }
             return counter;
         }
-        public static int GetSymOfDigits(int number)
+        public static int GetSumOfDigits(int number)
         {
             int sum = 0;
             while (number != 0)
