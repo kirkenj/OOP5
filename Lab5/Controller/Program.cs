@@ -7,9 +7,12 @@ namespace Lab5
     {
         public static void Main(string[] args)
         {
+            int number = 3258;
+            OutInConsole.Print(ALogic.GetSymOfDigits(number));
+            OutInConsole.Print(ALogic.GetLength(number));
+            OutInConsole.Print(BLogic.IsMoreEvenInNum(number));
+            OutInConsole.Print(ELogic.GetTriboncchiWithIndex(i));
             
-            OutInConsole.Print(C1Logic.IsDecreasingSequence(312));
-            OutInConsole.Print(CLogic.ReverseNumber(UserInput.GetInt()));
         }
     }
 }

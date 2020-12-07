@@ -6,6 +6,26 @@ namespace Lab5.Models
 {
     static class ELogic
     {
+        public static int GetTriboncchiWithIndex(int index)//finds a number in tribonacchi sequence with sent index
+        {
+            List<int> tribonachhiList = new List<int> { 0, 0, 1 };
+            int currentIndex = tribonachhiList.Count - 1;
+            if (index < 0)
+            {
+                return -1;
+            }
+            if (index <= currentIndex)
+            {
+                return tribonachhiList[index];
+            }
+            while (currentIndex < index)
+            {
+                currentIndex++;
+                tribonachhiList.Add(tribonachhiList[currentIndex - 1] + tribonachhiList[currentIndex - 2] + tribonachhiList[currentIndex - 3]);
+            }
+            return tribonachhiList[currentIndex];
+        }
+
         public static bool DegreeOfTwo(int number)
         {
             while (number != 1)
