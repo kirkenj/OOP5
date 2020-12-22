@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Lab5.Models
@@ -32,6 +33,10 @@ namespace Lab5.Models
                 number /= 10;
             }
             return max;
+        }
+        static public int Element(int number)
+        {
+            return number.ToString().Distinct().Count();
         }
     }
 }
