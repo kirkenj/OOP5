@@ -37,5 +37,13 @@ namespace Lab5.Models
             }
             return reversed;
         }
+        static public int CheckingForPalindrome(int number, int acces)
+        {
+            while (number > 0)
+            {
+                acces = acces * 10 + number % 10; number /= 10;
+            }
+            return acces;
+        }
     }
 }

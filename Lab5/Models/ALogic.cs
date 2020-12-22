@@ -26,5 +26,9 @@ namespace Lab5.Models
             }
             return sum;
         }
+        static public int AmountElement(int number)
+        {
+            return (int)Math.Log10(number) + 1;
+        }
     }
 }

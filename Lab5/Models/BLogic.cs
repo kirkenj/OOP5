@@ -38,5 +38,14 @@ namespace Lab5.Models
             }
             return false;
         }
+        static public string IsDominatedByOddOrEvenNumbers(int number)
+        {
+            int[] frequency = new int[2];
+            do
+            {
+                ++frequency[number & 1];
+            } while ((number /= 10) != 0);
+            return frequency[0] > frequency[1] ? "Even numbers prevail!" : frequency[0] < frequency[1] ? "Odd numbers prevail!" : "The number of even is equal to odd!";
+        }
     }
 }

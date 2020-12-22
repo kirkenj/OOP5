@@ -51,5 +51,16 @@ namespace Lab5.Models
             }
             return true;
         }
+        static public string NumberFibonacci(int number, int x1, int num)
+        {
+            int x2 = 0;
+            for (int i = 0; i < number - 1; i++)
+            {
+                x2 = x1 + num;
+                num = x1;
+                x1 = x2;
+            }
+            return $"Serial number {number} in the Fibonacci series corresponds to the number {x2}";
+        }
     }
 }
